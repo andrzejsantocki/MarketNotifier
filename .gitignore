@@ -1,0 +1,16 @@
+
+*.log       # Ignore all .log files
+*.csv       # Ignore all .csv files
+!main.csv   # But do not ignore main.csv
+/temp       # Ignore all files in the temp directory
+/env        # Ignore files of virtual environment
+build/      # Ignore the build directory
+*.pyc       # Ignore all .pyc files
+*.pyo       # Ignore all .pyo files
+*.pyd       # Ignore all .pyd files
+__pycache__/ # Ignore Python cache directory
+*.so        # Ignore shared libraries
+*.dll       # Ignore DLL files
+*.swp       # Ignore swap files from vim
+.DS_Store   # Ignore Mac system files
+Thumbs.db   # Ignore Windows image file caches
